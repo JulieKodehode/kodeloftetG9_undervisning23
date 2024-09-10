@@ -1,0 +1,27 @@
+.nameAnimationText {
+	font-size: 90px;
+    display: inline-block;
+	text-transform: uppercase;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	background: linear-gradient(
+		90deg,
+		rgba(105, 105, 186, 1) 0%,
+		rgba(235, 141, 0, 1) 25%,
+		rgba(214, 0, 255, 1) 49%,
+		rgba(0, 212, 255, 1) 50%,
+		rgba(0, 212, 255, 1) 100%
+	);
+	-webkit-background-clip: text;
+	background-size: 200% auto;
+	animation: fancyTextColor 4s linear infinite;
+}
+
+@keyframes fancyTextColor {
+	0% {
+		background-position: 0;
+	}
+	100% {
+		background-position: 100%;
+	}
+}

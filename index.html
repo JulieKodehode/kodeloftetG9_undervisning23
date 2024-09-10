@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    
-  </body>
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="animationCSS.css">
+  <script type="module" src="script.js"></script>
+</head>
+<body class="light">
+  <header>
+    <img id="themeToggle" class="logoImg" src="sun.png" alt="Logo">
+
+    <nav>
+      <div>
+        <a href="">Hjem</a>
+        <a href="">Prosjekt</a>
+        <a href="">Kontakt</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero section / Home section -->
+    <section>
+      <h1>Velkommen</h1>
+      <img src="" alt="Alternative text for image">
+      <p>Mitt navn er Julie lalala Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nam!</p>
+    </section>
+
+    <!-- Project section -->
+    <section class="flexColumn">
+      <div class="flexRow">
+        <div class="projectCard">
+          <h3>Prosjekt 1</h3>
+          <img src="" alt="Screenshot av prosjekt">
+          <p>Dette prosjektet linkes til en helt ny publisert side.</p>
+          <a href="https://fanciful-lokum-c1ccca.netlify.app/" target="_blank">Klikk her for å se prosjektet</a>
+          <a href="https://github.com/juliekodehode">Klikk her for å se koden</a>
+        </div>
+
+        <div class="projectCard">
+          <h3>Prosjekt 2</h3>
+          <img src="" alt="Screenshot av prosjekt">
+          <p>Dette prosjektet linkes til i en annen html lagret i dette prosjektet</p>
+          <a href="galleryProject/gallery.html" target="_blank">Klikk her for å se prosjektet</a>
+          <a href="https://github.com/juliekodehode">Klikk her for å se koden</a>
+        </div>
+      </div>
+
+      <div class="flexRow">
+        <div class="projectCard">
+          <h3>Prosjekt 3</h3>
+          <p>Dette prosjektet er laget direkte i dette prosjektet</p>
+          <div class="nameAnimationContainer">
+            <h2 class="nameAnimationText">Julie</h2>
+          </div>
+        </div>
+
+        <div class="projectCard">
+          <h3>Prosjekt 4</h3>
+          <p>Dette prosjektet bruker en iframe for å hente inn en publisert nettside</p>
+          <div>
+            <iframe src="https://curious-lokum-734477.netlify.app/" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>

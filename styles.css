@@ -1,0 +1,69 @@
+/* GENERAL */
+body {
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* THEME TOGGLE*/
+.light {
+    background-color: #fdfdfd;
+    color: #0d0d0d;
+}
+
+.dark {
+    background-color: #0d0d0d;
+    color: #fdfdfd;
+}
+
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px;
+}
+
+
+/* LOGO */
+.logoImg {
+    height: 32px;
+    width: 32px;
+}
+
+.BWFilter {
+    filter: invert(1);
+}
+
+
+/* PROJECTS */
+.flexColumn {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    border: 1px black solid;
+}
